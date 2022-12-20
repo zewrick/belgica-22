@@ -1,0 +1,39 @@
+* {
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+img {
+ display: block;
+ max-width: 100%;
+}
+
+.container{
+ width: 90%;
+ margin: auto;
+ padding-bottom: 20px;
+ padding-top: 20px;
+}
+
+.container img {
+ padding: 20px;
+}
+
+body {
+ background: #FCC443;
+}
+
+
+@media (min-width:850px){
+ .container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+ }
+ .container img {
+  width: 400px;
+  height: auto;
+ }
+}
